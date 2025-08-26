@@ -43,12 +43,11 @@ The main configuration files are:
 
 ```javascript
 .
-├── ansible.cfg               # Ansible configuration file
-├── *.yml                     # Playbooks for various services
-├── inventory/                # Inventory files defining target hosts
-├── templates/                # Jinja2 templates for configuration and environment files
-├── vars/                     # Variable files for parameterized configurations
-├── id_ed25519 / .pub         # SSH key pair for remote access (keep private key secure)
+├──  .gitignore              
+├── README.md                     
+├── output.tf               
+├── variables.tf.example                
+├── vm.tf               
 ```
 
 
