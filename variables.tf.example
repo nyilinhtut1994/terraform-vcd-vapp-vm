@@ -1,0 +1,56 @@
+#replcae "xxxxxx" with the respective value
+variable "user" {
+  default = "xxxxxx"
+}
+
+variable "password" {
+  default = "xxxxxx"
+}
+
+variable "org" {
+  default = "xxxxxx"
+}
+
+variable "vdc" {
+  default = "xxxxxx"
+}
+
+variable "url" {
+  default = "https://vcd1.xxxxxx.com.mm/api"
+}
+
+variable "cpus" {
+  default = 2
+}
+
+variable "catalog_name" {
+  default = "xxxxxx"
+}
+
+variable "template_name" {
+  default = "xxxxxx"
+}
+
+variable "storage_profile" {
+  default = "xxxxxx"
+}
+
+variable "vapp_name" {
+  default = "xxxxxx"
+}
+
+variable "vm_name" {
+  default = "xxxxx"
+}
+
+variable "org_network_name" {
+  default = "xxxxxx"
+}
+
+variable "memory" {
+  default = 2048
+}
+
+variable "ip" {
+  default = "x.x.x.x"
+}
